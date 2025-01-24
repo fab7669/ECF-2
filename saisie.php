@@ -16,12 +16,11 @@ session_start();
 </body>
 </html>
 
-<div id=centrage>
-        <div id=header>
-        <h1>Livre d'Or</h1>
+
+        <div id=header class="container-fluid">
+            <h1>Livre d'Or</h1>
         </div>
-        
-     <div id=flex class="container fluid">
+        <div id=flex class="container">
         <div class=row>
             
             <div class="col-6 text-center d-flex align-items-center" id=image>
@@ -64,6 +63,7 @@ session_start();
 
     </div>
     </div>
+    <div class=container>
 
     <?php
 

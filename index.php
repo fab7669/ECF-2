@@ -46,8 +46,8 @@ if (isset($_POST['submit'])) {
 ?>
 
 
-<div id="header" class="container-fluid">
-    <h1>Livre d'Or</h1>
+<div id=header class="container-fluid">
+        <h1>Livre d'Or</h1>
 </div>
     <div id="flex" class="container">
         <div class="row">

@@ -8,8 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $message = $_POST['message'];
     $user_id = $_POST['id_user'];
 
-    
-
+   
     // Préparer la requête d'insertion
     $created_at = date('Y-m-d H:i:s');
     $sql = $bdd->prepare("INSERT INTO messages (id_user, date, message) VALUES (:id_user,:created_at, :message)");
