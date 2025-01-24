@@ -48,6 +48,8 @@ if (isset($_SESSION['id_user'])) {
         <button type="submit" class="btn btn-primary">Mettre à jour</button> <!-- Bouton en bleu -->
     </form>
 </div>
+</div>          
+</div>
             
             <?php
             } else {
@@ -60,7 +62,17 @@ if (isset($_SESSION['id_user'])) {
     echo "<p>Vous devez être connecté pour modifier un message.</p>";
 }
 ?>
-</div>
+<div id="header" class="container-fluid">
+        <h1>Livre d'Or</h1>
+      
+    
+    <figure>
+        <img src="./assets/images/face.webp" class="img-fluid" alt="facebook">
+        <img src="./assets/images/Insta.webp" class="img-fluid" alt="Instagram">
+        <img src="./assets/images/twitter.webp" class="img-fluid" alt="twitter">
+    </figure>
+</div>  
+
 </body>
 </html>
 

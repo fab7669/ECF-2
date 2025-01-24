@@ -112,9 +112,18 @@ session_start();
     </div>
 </div>
 
-<div id="deconnection">
+<div id="deconnection" class="p-1" class="mx-auto">
     <a href="logout.php" class="btn btn-danger">Se déconnecter</a>
 </div>
-
+<div id="header" class="container-fluid">
+        <h1>Livre d'Or</h1>
+      
+    
+    <figure>
+        <img src="./assets/images/face.webp" class="img-fluid" alt="facebook">
+        <img src="./assets/images/Insta.webp" class="img-fluid" alt="Instagram">
+        <img src="./assets/images/twitter.webp" class="img-fluid" alt="twitter">
+    </figure>
+</div>  
 </body>
 </html>

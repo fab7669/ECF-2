@@ -113,6 +113,17 @@ if (isset($_POST['submit'])) {
         </div>
     </div>
 </div>
+<div id="header" class="container-fluid">
+        <h1>Livre d'Or</h1>
+      
+    
+    <figure>
+        <img src="./assets/images/face.webp" class="img-fluid" alt="facebook">
+        <img src="./assets/images/Insta.webp" class="img-fluid" alt="Instagram">
+        <img src="./assets/images/twitter.webp" class="img-fluid" alt="twitter">
+    </figure>
+</div>  
+
 
 </body>
 </html>

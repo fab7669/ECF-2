@@ -15,9 +15,14 @@ figure>img{
 }
 #deconnection{
     text-align: center;
+    padding: 15px;
 }
 #flex{
     padding: 50px;
+}
+#header>figure>img{
+    width: 2%;
+    height: 2%;
 }
 
 
