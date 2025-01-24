@@ -23,13 +23,13 @@ session_start();
         <div id=flex class="container">
         <div class=row>
             
-            <div class="col-6 text-center d-flex align-items-center" id=image>
+            <div class="col-md-6 text-center d-flex align-items-center" id=image>
             <figure>
             <img src="./assets/images/livre.jpg" alt="livre">
             </figure>
              </div>
         
-        <div class=col-6 id= blocdroit>
+        <div class=col-md-6 id= blocdroit>
             <div id=texte>
                     <?php
                     include_once('./connexion.php');

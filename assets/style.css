@@ -9,7 +9,16 @@
     color: white;
 }
  
-
+figure>img{
+    width: 50%;
+    height: 50%;
+}
+#deconnection{
+    text-align: center;
+}
+#flex{
+    padding: 50px;
+}
 
 
 
