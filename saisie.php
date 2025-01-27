@@ -46,12 +46,14 @@ session_start();
                     echo "<h2>Bienvenue, " . htmlspecialchars($user['name']) . "!</h2>";
                     echo "<p>Date de connexion: " . date('d-m-Y H:i:s') . "</p>"; // Afficher la date actuelle
                 }
+                    echo "<h2>Derniers Messages:</h2>";
 
                 $req = $bdd->query('SELECT `message` FROM `messages` ORDER BY `date` DESC LIMIT 4');
                 while ($messages = $req->fetch(PDO::FETCH_ASSOC)) {
                 ?>
                     <article>
-                        <h3>Message:</h3>
+                        
+                        <h6>Message:</h6>
                         <p><?= htmlspecialchars($messages['message']) ?></p>
                     </article>
                 <?php

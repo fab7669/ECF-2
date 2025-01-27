@@ -8,25 +8,16 @@
     text-align: center;
     color: white;
 }
- 
-figure>img{
+ figure>img{
     width: 50%;
     height: 50%;
-}
-#deconnection{
-    text-align: center;
-    padding: 15px;
-}
-#flex{
-    padding: 50px;
+    
 }
 #header>figure>img{
     width: 2%;
     height: 2%;
 }
-
-
-
-   
-
-
+#deconnection{
+    text-align: center;
+    padding: 15px;
+}

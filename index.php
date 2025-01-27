@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
     <h1>Livre d'Or</h1>
 </div>
 
-<div id="flex" class="container">
+<div id="flex" class="container p-2">
     <div class="row">
         <div class="col-md-6" id="formulaire">
             <div class="mt-5">
@@ -115,8 +115,7 @@ if (isset($_POST['submit'])) {
 </div>
 <div id="header" class="container-fluid">
         <h1>Livre d'Or</h1>
-      
-    
+       
     <figure>
         <img src="./assets/images/face.webp" class="img-fluid" alt="facebook">
         <img src="./assets/images/Insta.webp" class="img-fluid" alt="Instagram">
